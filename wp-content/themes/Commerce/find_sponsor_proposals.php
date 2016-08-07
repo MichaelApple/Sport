@@ -491,7 +491,7 @@ else {
             	if($query1!='') $query1=$query1.$and;
             	$query1=$query1."`$field` LIKE '%".mysql_real_escape_string($_POST[$field])."%'";
             }
-
+// Коментар
             if($query1) $query1=' WHERE '.$query1;
             $query1 = 'SELECT * FROM main'.$query1;
             // if there are conditions defined
