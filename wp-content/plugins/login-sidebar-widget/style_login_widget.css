@@ -1,0 +1,32 @@
+.error_wid_login{
+    background-color: #FFFFD2;
+    border: 1px dashed #E6DB55;
+    color: #000;
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: 500;
+    padding: 6px;
+    width: 97%;
+	clear:both !important;
+}
+
+.success_wid_login{
+    background-color: #FFFFD2;
+    border: 1px dashed #E6DB55;
+    color: #000;
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: 500;
+    padding: 6px;
+    width: 97%;
+	clear:both !important;
+}
+
+.close_button_afo, .close_button_afo:hover{
+	float:right;
+	text-decoration:none;
+	color:#000;
+}
+.captcha{
+	border:1px solid #ccc;
+}
